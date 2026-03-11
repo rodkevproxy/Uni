@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+        background-color: #f0f2f5;
+    }
+
+    nav ul li {
+        display: inline-block;
+        padding: 10px;
+        list-style-type: none;
+    }
+
+    nav a {
+        padding: 5px 10px;
+    }
+
+    nav a:hover {
+        background-color: aqua;
+        border-radius: 5px;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+
+    }
+
+    th,
+    td {
+        border: 1px solid #dddddd;
+        text-align: center;
+    }
+
+    tfoot {
+        font-style: italic;
+    }
+
+    label {
+        display: block;
+        font-weight: bold;
+        margin-top: 15px;
+        margin-bottom: 5px;
+    }
+
+    input[type="email"],
+    input[type="text"],
+    select,
+    textarea {
+        width: 100%;
+        padding: 10px;
+        border: 2px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+        font-size: 16px;
+    }
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engagement Week - Employability Support Fair</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="#menu"></a>menu</li>
+                <li><a href="#about"></a>about</li>
+                <li><a href="#schedule"></a>schedule</li>
+                <li><a href="" target="_blank">external link 1</a></li>
+                <li><a href="" target="_blank">external link 2</a></li>
+            </ul>
+        </nav>
+        <section id="about">
+            <ul>
+                <li>CV and Cover letter Workshops</li>
+                <li>Mock interviews with industry professionals</li>
+                <li>Networking opportunities with employers</li>
+            </ul>
+            <p><strong>Date:</strong></p> Wednesday 12<sup>th</sup> March, 2025
+            <p><strong>Time:</strong>11:00AM - 3:00PM</p>
+            <p><strong>Location:</strong>Cavendish Campus Atrium</p>
+        </section>
+        <section>
+            <img src="./img/careersfairs.jpg">
+        </section>
+        <br>
+        <section id="schedule">
+
+        </section>
+    </header>
+
+
+    <section class="table" id="schedule">
+        <h1>Event Schedule</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Department/service</th>
+                    <th>Session</th>
+                    <th>Time</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">Careers Team</td>
+                    <td>CV Workshop</td>
+                    <td>11:00 AM</td>
+                </tr>
+                <tr>
+                    <td>Interview Skills Session</td>
+                    <td>12:00PM</td>
+                </tr>
+                <tr>
+                    <td>Industry Panel</td>
+                    <td>Employer QA</td>
+                    <td>1:30PM</td>
+                </tr>
+                <tr>
+                    <td>Alumni Office</td>
+                    <td>Graduate Success Stories</td>
+                    <td>2:30PM</td>
+                </tr>
+
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3" rowspan="3">
+                        <p>
+
+                            <em>
+                                <ul>
+                                    <p>All sessions are free for registered students. Please bring your student ID.</p>
+                                    <p> the footer note in italic.</p>
+                                    <p>Use proper table structure.</p>
+                            </em>
+                        </p>
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+
+    <h1>Book Your Place</h1>
+    <section id="book">
+        <form action="mailto:w2151939@westminster.ac.uk" method="post"></form>
+        <legend>Ready to enhance your employability skills? Reserve your place at Engagement Week today!</legend>
+
+        <label for="Name">Enter your full name. (Required)</label>
+        <input type="text" name="Name" id="Name" required placeholder="Pleasee enter your full name">
+
+        <label for="Email">Please enter your email</label>
+        <input type="email" name="Email" id="Name" required placeholder="Please enter your email">
+
+        <label for="Course">Plase enter the name of your course</label>
+        <input type="text" name="Course" id="Course" required placeholder="Please enter the name of your course">
+
+        <label for="Year">Please enter what year are your on</label>
+        <select>
+            <option>1</option>
+            <option>3</option>
+            <option>3</option>
+        </select>
+
+
+
+    </section>
+</body>
+<footer>
+    <section>
+        <p>© 2025 University Employability Services
+Last updated: February 2025</p>
+    </section>
+    <section>
+        <em>For more information visit:</em><br>
+           <a href="mailto:www.westminster.ac.uk">www.westminster.ac.uk</a>
+            <a href="mailto:careers@westminster.ac.uk">careers@westminster.ac.uk</a>
+    </section>
+</footer>
+
+</html>
