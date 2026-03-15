@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Splash Screen (SDG Quality Educationj)</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: url('This need to be defined yet');
+            background-size: cover;
+            color: white;
+            font-family: sans-serif;
+            text-align: center;
+            background-color: #2c3e50;
+        }
+
+
+        /*css loader animation*/
+        .loader {
+            border: 8px solid #f3f3f3;
+            border-top: 8px solid #3498db;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+            margin: 20px auto;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .skip-btn {
+            padding: 10px 20px;
+            background: #e74c3c;
+            color: white;
+            border: none;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Title here for the splash screen</h1>
+    <p>First sentence</p>
+    <p>Second sentence</p>
+
+    <div class="" loader></div>
+
+    <p>Entering the site in <span id="countdown">4</span>...</p>
+
+    <button class="skip-btn" onclick="skipIntro()">Skip Intro</button>
+
+    <script>
+        //javascript for the countdown timer
+        let timeLeft = 4;
+        const countdownElement = document.getElementById('countdown')
+
+        setInterval(() => {
+            timeLeft--;
+            if (timeLeft > 0) {
+                countdownElement.tectContent = timeLeft;
+            }
+        }, 1000);
+
+        //javascript for the button 
+
+        function skipIntro() {
+            window.location.href = "home.html"
+        }
+    </script>
+</body>
