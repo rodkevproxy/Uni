@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Editor Student - Kevin Rodas</title>
+
+    <link rel="stylesheet" href="css/pageEditor_validator.css"> <!-- External CSS link -->
+    <style>
+        footer {
+            background-color: #333333;
+            color: #FFFFFF;
+            padding: 2rem;
+            text-align: center;
+            margin-top: auto;
+        }
+
+        .footer-links ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 1rem;
+        }
+
+        .footer-links a {
+            color: #EDA323;
+        }
+
+        .footer-links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <!-- Update the header and the footer to be consistent with the rest of the pages you implemented -->
+
+    <header id="top">
+        <h1>Life On Land</h1>
+    </header>
+
+    <section class="stud">
+        <h2>Kevin Rodas, HCJ, Student 2</h2>
+    </section>
+
+    <div class="container">
+        <!-- Main content area -->
+        <main>
+
+            <!-- Update those first three sections for the pages you were responsible to implement -->
+            <section>
+                <h2 id="contentais">Action Impact Simulator</h2>
+                <h3>Technical Description</h3>
+                <p>
+                    The page implements an interactive "Action Impact Simulator" using a dynamic combination of
+                    <strong>HTML</strong>,
+                    <strong>CSS</strong>, and <strong>JavaScript</strong>. The layout relies on semantic HTML5 tags and
+                    utilizes
+                    <strong>CSS Grid</strong> (<code>display: grid</code> with <code>auto-fit</code> and
+                    <code>minmax</code>) to create
+                    a fully responsive gallery of actionable cards that seamlessly adapts to different screen sizes.
+                    Visual feedback is
+                    enhanced through CSS transitions (such as <code>transform: translateY</code> and
+                    <code>box-shadow</code>) applied
+                    dynamically via an active class. The core interactivity is driven by custom JavaScript functions
+                    that manage a
+                    running score state (<code>totalScore</code>). When a card is clicked, the script toggles a
+                    <code>.selected</code>
+                    CSS class, calculates the new score, and immediately manipulates the Document Object Model (DOM) to
+                    update the
+                    feedback text and dynamically swap the page's background image based on predefined point thresholds.
+                </p>
+
+                <h3>Accessibility</h3>
+                <p>
+                    Accessibility is actively integrated into both the markup and the scripting of this interactive
+                    tool. Because the
+                    interactive cards are built using <code>&lt;div&gt;</code> elements rather than native buttons, they
+                    were given a
+                    <code>tabindex="0"</code> attribute to make them focusable via keyboard navigation. A custom CSS
+                    <code>:focus</code>
+                    state (<code>outline: 3px solid var(--accent-yellow)</code>) ensures a highly visible indicator
+                    appears when a card
+                    is tabbed onto. Crucially, a dedicated JavaScript event listener was implemented to detect the
+                    "Enter" keypress,
+                    programmatically triggering the click event so keyboard-only users can interact with the simulator
+                    effectively.
+                    Additionally, all images feature descriptive <code>alt</code> attributes, and semantic landmarks
+                    assist screen
+                    readers in parsing the page content.
+                </p>
+                <h3>Link to the validation page</h3>
+
+                <p><a href="https://w2151939.users.ecs.westminster.ac.uk/HCJ/validation_ST2#aisVal">Validation Page</a>
+                </p>
+
+                <h3>Link to the page</h3>
+                <p><a href="https://w2151939.users.ecs.westminster.ac.uk/HCJ/ais.html">Action Impact Simulator</a></p>
+            </section>
+
+
+            <section>
+                <h2 id="contentsplash">Splash Screen</h2>
+                <h3>Technical Description</h3>
+                <p>
+                    The page is constructed using a semantic <strong>HTML5</strong> hierarchy, utilizing a
+                    <code>&lt;header&gt;</code>
+                    for site identity, a <code>&lt;main&gt;</code> container for the primary narrative, and
+                    <code>&lt;section&gt;</code>
+                    elements with unique IDs to define clear thematic boundaries. The layout leverages
+                    <strong>CSS</strong> for a clean,
+                    professional aesthetic, employing custom properties for consistent branding and a responsive
+                    structure that ensures
+                    content remains readable across devices. Key styling choices include the use of
+                    <code>border-radius</code> and
+                    <code>box-shadow</code> to give images a modern feel, while the <strong>Table of Contents</strong>
+                    uses a distinct
+                    background and <code>border-left</code> to improve scannability. Interactivity is integrated via
+                    internal anchor
+                    links and a "Back to Top" button implemented with <code>position: fixed</code> and a high
+                    <code>z-index</code>,
+                    allowing users to navigate long-form content effortlessly without heavy JavaScript dependencies.
+                </p>
+
+                <h3 id="accessibility">Accessibility</h3>
+                <p>
+                    Accessibility was addressed by ensuring high navigational clarity and adhering to visual standards.
+                    I used semantic
+                    tags like <code>&lt;nav&gt;</code> and <code>&lt;ul&gt;</code> to allow screen readers to interpret
+                    the site
+                    structure accurately and provided descriptive <code>alt</code> text for all images to convey the
+                    meaning of the data
+                    graphics to visually impaired users. The inclusion of an internal <strong>Table of Contents</strong>
+                    and a
+                    persistent "Back to Top" link assists users with motor impairments or those using keyboard
+                    navigation to jump
+                    between sections quickly. Furthermore, the CSS defines clear hover states and underlines for links
+                    to ensure they
+                    are easily distinguishable from regular text.
+                </p>
+
+                <h3>Link to the validation page</h3>
+
+                <p><a href="https://w2151939.users.ecs.westminster.ac.uk/HCJ/validation_ST2#splashVal">Validation
+                        Page</a>
+                </p>
+
+                <h3>Link to the page</h3>
+                <p><a href="https://w2151939.users.ecs.westminster.ac.uk/HCJ/splash.html">Splash Screen</a></p>
+            </section>
+
+            <section>
+                <h2 id="content">Content Page ST2</h2>
+                <h3>Technical Description</h3>
+                <p>
+                    The page is constructed using a semantic <strong>HTML</strong> hierarchy, utilizing a
+                    <code>&lt;header&gt;</code>
+                    for site identity, a <code>&lt;main&gt;</code> container for the primary narrative, and
+                    <code>&lt;section&gt;</code>
+                    elements with unique IDs to define clear thematic boundaries. The layout leverages
+                    <strong>CSS</strong> for a clean,
+                    professional aesthetic, employing custom properties for consistent branding and a responsive
+                    structure that ensures
+                    content remains readable across devices. Key styling choices include the use of
+                    <code>border-radius</code> and
+                    <code>box-shadow</code> to give images a modern feel, while the <strong>Table of Contents</strong>
+                    uses a distinct
+                    background and <code>border-left</code> to improve scannability. Interactivity is integrated via
+                    internal anchor
+                    links and a "Back to Top" button implemented with <code>position: fixed</code> and a high
+                    <code>z-index</code>,
+                    allowing users to navigate long-form content effortlessly without heavy JavaScript dependencies.
+                </p>
+
+                <h3>Accessibility</h3>
+                <p>
+                    Accessibility was addressed by ensuring high navigational clarity and adhering to visual standards.
+                    I used semantic
+                    tags like <code>&lt;nav&gt;</code> and <code>&lt;ul&gt;</code> to allow screen readers to interpret
+                    the site
+                    structure accurately and provided descriptive <code>alt</code> text for all images to convey the
+                    meaning of the data
+                    graphics to visually impaired users. The inclusion of an internal <strong>Table of Contents</strong>
+                    and a
+                    persistent "Back to Top" link assists users with motor impairments or those using keyboard
+                    navigation to jump
+                    between sections quickly. Furthermore, the CSS defines clear hover states and underlines for links
+                    to ensure they
+                    are easily distinguishable from regular text.
+                </p>
+
+                <h3>Link to the validation page</h3>
+
+                <p><a href="https://w2151939.users.ecs.westminster.ac.uk/HCJ/validation_ST2#contentVal">Validation
+                        Page</a>
+                </p>
+
+                <h3>Link to the page</h3>
+                <p><a href="https://w2151939.users.ecs.westminster.ac.uk/HCJ/content_page_ST2.html">Content Page ST2</a>
+                </p>
+            </section>
+
+            <section>
+                <h2 id="challenge"> Challenges and Lessons Learned</h2>
+                <p>One significant challenge was interpreting the complex coursework requirements and translating them
+                    into technical
+                    solutions. For example, the brief required not just a static website, but an interactive experience
+                    that adhered to
+                    strict accessibility and validation standards. Figuring out exactly how to implement features like
+                    the semantic HTML
+                    structure for the Content page or the specific timed-redirect requirements for the Splash screen
+                    meant I had to
+                    spend extra time deconstructing the assignment into actionable coding steps before I could even
+                    begin typing.</p>
+
+
+                <p>Regarding teamwork, I learned that strong communication and establishing a shared foundation like an
+                    agreed upon CSS
+                    stylesheet and semantic HTML structure early in the project is vital. It saves hours of debugging
+                    and refactoring
+                    when merging files later on. Ultimately, these challenges improved not just my technical coding
+                    abilities, but my
+                    overall approach to project management and collaborative problem-solving.</p>
+            </section>
+
+            <section>
+                <h2 id="compliance"> Compliance</h2>
+                <p>This website complies with JANET regulations for acceptable use. All content uploaded is relevant to
+                    our academic
+                    coursework and does not contain any offensive, defamatory, or illegal material. All external images
+                    used on the site
+                    have been sourced from royalty-free platforms and have been properly referenced below to maintain
+                    academic integrity
+                    and respect copyright laws.</p>
+
+                <a href="https://intranet.ecs.westminster.ac.uk/modules/4COSC011W/compliance.html" target="_blank">See
+                    the lecture notes for more details on compliance.</a></p>
+
+
+            </section>
+
+            <section>
+                <h2 id="group"> Group Meetings and Individual Contribution Log</h2>
+
+                <table>
+
+                    <thead>
+                        <tr>
+                            <th colspan="6">Group Meetings and Contribution Log</th>
+                        </tr>
+                        <tr>
+                            <th>Meeting</th>
+                            <th>Date &amp; Time</th>
+                            <th>Format</th>
+                            <th>Objective</th>
+                            <th>Attended</th>
+                            <th>Your Individual Contribution</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>17 Feb 2026</td>
+                            <td>In Person</td>
+                            <td>Agree SDG and assign roles</td>
+                            <td>Yes</td>
+                            <td>I agreed to take responsibility for the AIS and the SplashScreen.</td>
+                        </tr>
+
+                        <tr>
+                            <td>2</td>
+                            <td>24 Feb 2026</td>
+                            <td>In Person</td>
+                            <td>Review Chosen Colours Implemented In The Individual Pages </td>
+                            <td>Yes</td>
+                            <td>Shared my draft templates with the team and implemented feedback.</td>
+                        </tr>
+
+                        <tr>
+                            <td>3</td>
+                            <td>03 Mar 2026</td>
+                            <td>In Person</td>
+                            <td>Progress review</td>
+                            <td>Yes</td>
+                            <td>I continiued with the implementations.</td>
+                        </tr>
+
+                        <tr>
+                            <td>4</td>
+                            <td>10 Mar 2026</td>
+                            <td>In Person</td>
+                            <td>Feedback implementation</td>
+                            <td>Yes</td>
+                            <td>I asked my team to review the implementations that i did based on the previous feedback
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>5</td>
+                            <td>17 Mar 2026</td>
+                            <td>In Person</td>
+                            <td>Asked for opinions on the images and desings that i was implementing for both my
+                                splashcreen and my ais</td>
+                            <td>Yes</td>
+                            <td>At this poinnt my files we're on the final stage, so i starded working on the validation
+                                and page editor pages</td>
+                        </tr>
+
+                        <tr>
+                            <td>6</td>
+                            <td>24 Mar 2026</td>
+                            <td>In Person</td>
+                            <td>Final check</td>
+                            <td>Yes</td>
+                            <td>Evaluated all my files for small gaps or errors</td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </section>
+
+            <section>
+                <h2 id="ref">References</h2>
+                <ul>
+                    <li>University Lecture Notes and Coursework Brief.</li>
+                    <li>W3Schools HTML, CSS And JAVASCRIPT Tutorials (used for syntax reference).</li>
+                    <li><strong>Images Sourced From:</strong>
+                        <ul class="ref">
+                            <li>SDG 15 logo:
+                                <a href="https://www.un.org/sustainabledevelopment/news/communications-material/"
+                                    target="_blank">https://www.un.org/sustainabledevelopment/news/communications-material/</a>
+                            </li>
+                            <li>Content 1:
+                                <a href="https://ai.google" target="_blank">https://ai.google</a>
+                            </li>
+                            <li>Content 2:
+                                <a href="https://ai.google" target="_blank">https://ai.google</a>
+                            </li>
+                            <li>Content 3:
+                                <a href="https://ai.google" target="_blank">https://ai.google</a>
+                            </li>
+                            <li>Content 4:
+                                <a href="https://ai.google" target="_blank">https://ai.google</a>
+                            </li>
+                        </ul>
+            </section>
+
+            <p class="top"><a href="#top">Go top</a></p>
+        </main>
+
+        <!-- Sidebar area -->
+        <aside>
+            <h3>Core pages developed:</h3>
+
+            <!-- Customize this to the role you undertook. Keep only the list items you were responsible to develop, delete the rest -->
+            <ul class="top-level-ul">
+                <!-- Keep only the list items you were responsible to develop, delete the rest and update the links to the corresponding markers -->
+
+                <li>Student 2</li>
+                <ul>
+                    <li><a href="https://w2151939.users.ecs.westminster.ac.uk/HCJ/splash.html">Splash Screen</a></li>
+                    <li><a href="https://w2151939.users.ecs.westminster.ac.uk/HCJ/ais.html">Action Impact Simulator</a>
+                    </li>
+                    <li><a href="https://w2151939.users.ecs.westminster.ac.uk/HCJ/content_page_ST2">Content</a></li>
+                </ul>
+                <li><a href="#challenge">Challenges and Lessons Learned</a></li>
+                <li><a href="#compliance">Compliance</a></li>
+                <li><a href="#group">Group Meetings and Individual Contribution Log</a></li>
+                <li><a href="#ref">References</a></li>
+            </ul>
+        </aside>
+    </div>
+
+    <footer>
+        <div class="student-details">
+            <p>Developed by: Kevin Rodas | Student ID: w2151939</p>
+        </div>
+        <div class="footer-links">
+            <ul>
+                <li><a href="#top">Page Editor</a></li>
+                <li><a href="https://w2151939.users.ecs.westminster.ac.uk/HCJ/validation_ST2.html">Validation Page</a>
+                </li>
+                <li><a href="#compliance">Accessibility /
+                        Compliance</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta http-equiv="refresh" content="4; url=https://w2151939.users.ecs.westminster.ac.uk/HCJ/ais.html">
+
+    <title>Life On Land - Splash Screen</title>
+
+    <!--Style section that will only the elements inside the splash screen document-->
+
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-image: url('./images/background.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .splash-container {
+            background: rgba(255, 255, 255, 0.4);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            padding: 40px;
+            border-radius: 15px;
+            text-align: center;
+            max-width: 600px;
+            width: 90%;
+            transition: transform 0.3s ease, background 0.3s ease;
+        }
+
+        .splash-container:hover {
+            transform: scale(1.02);
+            background: rgba(255, 255, 255, 0.5);
+        }
+
+        h1 {
+            color: black;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #219150;
+            line-height: 1.5;
+        }
+
+        ul {
+            padding: 0;
+            margin-bottom: 20px;
+        }
+
+        li {
+            list-style-type: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+            margin-bottom: 5px;
+        }
+
+        .loader {
+            border: 6px solid rgba(39, 174, 96, 0.2);
+            border-top: 6px solid #27ae60;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 20px auto;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .skip-btn {
+            background-color: #27ae60;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        .skip-btn:hover {
+            background-color: #219150;
+        }
+
+        .countdown {
+            color: rgb(128, 36, 28);
+            font-size: xx-large;
+            font-weight: bold;
+            margin-bottom: 0;
+        }
+
+        .introtext {
+            color: rgb(128, 36, 28);
+            font-size: large;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!--This div contains and display the main content and explain the main purpose of our web site, by introucind it with a brief and simple 
+text content area.-->
+
+    <div class="splash-container">
+
+        <h1><strong>LIFE ON LAND</strong></h1>
+
+        <p class="introtext">Protect, Restore, and Promote Sustainable Use of Terrestrial Ecosystems</p>
+
+        <h2>Team Members:</h2>
+        <ul>
+            <li>Kevin Rodas</li>
+            <li>Adam Buwembo</li>
+            <li>Aydin Eshal</li>
+            <li>Mohammad Mustafa</li>
+        </ul>
+        <div class="loader"></div>
+
+        <p class="countdown">Entering site in <span id="countdown">4</span>...</p>
+
+        <button class="skip-btn" onclick="skipIntro()">Skip Intro</button>
+
+    </div>
+
+    <script>
+
+        /*This script ensures that the count down will start as soon as the page is loaded, also it will let the user know how many seconds are left before 
+        the splash screen gets reloaded and the user re directed to the home page*/
+
+        let timeLeft = 4;
+        const countdownElement = document.getElementById('countdown');
+
+        const timer = setInterval(() => {
+            timeLeft--;
+            countdownElement.textContent = timeLeft;
+            if (timeLeft <= 0) {
+                clearInterval(timer);
+
+                window.location.href = 'https://w2151939.users.ecs.westminster.ac.uk/HCJ/ais.html';
+            }
+        }, 1000);
+
+        function skipIntro() {
+            window.location.href = 'https://w2151939.users.ecs.westminster.ac.uk/HCJ/ais.html';
+        }
+    </script>
+
+</body>
+
+</html>
