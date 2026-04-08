@@ -1,6 +1,0 @@
-First seminar 
-
-Crate the SSH
-
-InteliJ or vscode, try to integrate the SSH key as i dont have any back up !!
-
