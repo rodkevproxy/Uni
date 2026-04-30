@@ -16,6 +16,8 @@ public class App {
     // Global variables
     private static int[][] planeSeats = null;
     private static int[] pricePerRow = null;
+    static Payment[] payments = new Payment[76];
+    static int paymentCounter = 0; 
 
     public static void main(String[] args) {
         System.out.println("Welcome to Flying Java!");
@@ -35,7 +37,7 @@ public class App {
         pricePerRow[2] = 80;
         pricePerRow[3] = 50;
     }
-
+ 
     public static void runMenu() {
         int option;
         boolean cont = true;
@@ -91,28 +93,46 @@ public class App {
 
         do {
         System.out.print("Enter row number: ");
-        int rowNuber = input.nextInt();
+        rowNumber = input.nextInt();
 
         if (rowNumber < 1 || rowNumber > 4){
             System.out.println("Invalid row! Please choose between 1 and 4.");
         }
+    } while (rowNumber < 1 || rowNumber > 4); 
 
         // up to this point we are safe because we know that the row entered will be the correct one 
+        // we substract one so it matches the 0 count based java method 
 
+        int row = rowNumber - 1; 
 
+        // Now we need to get the seat and buy the ticket
+        System.out.println( "Enter the seat number: " );
+        int seat = input.nextInt() - 1;
+        
+        // Now we need to check if the seat is available or not 
 
-
-
-        // Check if the seat is available or not
         if (planeSeats[row][seat] == 0) {
+            System.out.println("Seat Available! Please enter your email"); 
+            String userEmail = input.next(); 
+
+            int price = 0; 
+            if (row == 0) {price = 50; }
+            else if (row == 1) {price = 80; }
+            else if (row == 2) {price = 80; }
+            else if (row == 3) {price = 50; }
+
+            Payment newPayment = new Payment(userEmail, price); 
+            payments[paymentCounter] = newPayment; 
+            paymentCounter ++; 
+
             planeSeats[row][seat] = 1;
-            System.out.println("Purchase successful.");
-            showSeatingArea();
-        } else {
-            System.out.println("This seat is already taken.");
+            System.out.println("Purchase succesfull!"); 
+            showSeatingArea(); 
+        } else { 
+            System.out.println("This seat is already taken. ");
         }
-    }while (rowNumber < 1 || rowNumber > 4);
-}
+    }
+
 
     private static void showSeatingArea() {
 
@@ -144,4 +164,8 @@ public class App {
         System.out.println();
 
     }
+
+
+
+
 }
