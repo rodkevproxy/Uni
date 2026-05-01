@@ -86,6 +86,13 @@ public class App {
 
     }
 
+    private static void searchPayment() {
+        Scanner input = new Scanner(System.in);
+        
+        System.out.println("Eneter a payment amout to search for: ");
+        int searchAmout = input.nextInt(); 
+    }
+
     private static void buyTicket() {
 
         Scanner input = new Scanner(System.in);
