@@ -55,7 +55,7 @@ public class App {
                     showSeatingArea();
                     break;
                 case 3: 
-                    searchPayment();                    
+                    searchPayment(); // very important to add!                  
                 default:
                     System.out.println("Option not available. Please select a valid option: ");
             }
