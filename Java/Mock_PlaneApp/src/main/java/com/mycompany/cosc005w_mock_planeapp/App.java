@@ -4,6 +4,9 @@
 package com.mycompany.cosc005w_mock_planeapp;
 
 import java.util.Scanner;
+import java.io.FileWriter;
+import java.io.PrintWriter;
+import java.io.IOException;
 
 /**
  * // Before you start, complete the following information: 
@@ -55,7 +58,11 @@ public class App {
                     showSeatingArea();
                     break;
                 case 3: 
-                    searchPayment(); // very important to add!                  
+                    searchPayment(); // very important to add!          
+                case 4: 
+                    saveToFile();
+                case 10: 
+                System.out.println("Thank you for flying with us");                        
                 default:
                     System.out.println("Option not available. Please select a valid option: ");
             }
@@ -90,7 +97,7 @@ public class App {
 
     private static void searchPayment() {
         Scanner input = new Scanner(System.in);
-        boolean foundMatch = false //boolean flag to display when a payment is not found 
+        boolean foundMatch = false; //boolean flag to display when a payment is not found 
         
         System.out.println("Eneter a payment amout to search for: ");
         int searchAmout = input.nextInt(); 
@@ -189,6 +196,25 @@ public class App {
         System.out.println("=".repeat(76));
         System.out.println();
 
+    }
+
+    private static void saveToFile() {
+        try{
+            // open a new file called payments.txt 
+            PrintWriter writer = new PrintWriter(new FileWriter("Payment.txt"));
+
+            for(int i = 0; i < paymentCounter; i ++){
+                Payment currentPayment = payments[i];
+
+                writer.println("Email: " + currentPayment.getEmail() + " | Amount:  £ " + currentPayment.getPaymentAmount());
+            }
+
+            // Close the file when it is done 
+            writer.close(); 
+            System.out.println("Payments successfully saved to file! ");
+        }catch(IOException e){ 
+            System.out.println("Erros saving file: " + e.getMessage());
+        }
     }
 
 
