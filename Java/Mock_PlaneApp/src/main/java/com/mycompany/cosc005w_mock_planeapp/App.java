@@ -54,6 +54,8 @@ public class App {
                 case 2:
                     showSeatingArea();
                     break;
+                case 3: 
+                    searchPayment();                    
                 default:
                     System.out.println("Option not available. Please select a valid option: ");
             }
@@ -88,9 +90,26 @@ public class App {
 
     private static void searchPayment() {
         Scanner input = new Scanner(System.in);
+        boolean foundMatch = false //boolean flag to display when a payment is not found 
         
         System.out.println("Eneter a payment amout to search for: ");
         int searchAmout = input.nextInt(); 
+
+         for (int i  = 0; i < paymentCounter; i ++) { 
+            Payment currentPayment = payments[i]; 
+            
+        if (currentPayment.getPaymentAmount() == searchAmout){
+            System.out.println("- " + currentPayment.getPaymentAmount());
+
+            foundMatch = true; 
+
+        }                 
+    }
+
+    if (foundMatch == false ){ 
+        System.out.println("No payments were found with that amount ");
+    }
+
     }
 
     private static void buyTicket() {
