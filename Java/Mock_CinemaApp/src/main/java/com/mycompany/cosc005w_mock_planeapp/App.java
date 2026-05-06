@@ -110,6 +110,12 @@ public class App {
 
         Snack newSnack = new Snack (snackName, snackPrice);
 
+        // Now we add the object to the array 
+
+        snacks[snackCounter] = newSnack;
+
+        snackCounter++; 
+
         }
 
 
