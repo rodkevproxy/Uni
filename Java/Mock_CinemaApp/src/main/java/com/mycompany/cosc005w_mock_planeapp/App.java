@@ -31,6 +31,7 @@ public class App {
             System.out.println("\n+--- MAIN MENU ---+");
             System.out.println("1) Book a movie seat");
             System.out.println("2) Show seating area");
+            System.out.println("3) Search snacks");
             System.out.println("0) Quit");
             System.out.println("+-----------------+");
             System.out.print("Please select an option: ");
@@ -45,6 +46,8 @@ public class App {
                     break;
                 case 3:
                     buySnack();    
+                case 4: 
+                    searchSnacks();
                 case 0:
                     System.out.println("Enjoy the movie!");
                     break;
@@ -118,8 +121,32 @@ public class App {
 
         }
 
+    private static void searchSnacks() {
+        Scanner input = new Scanner (System.in);
+        boolean snackMatch = false;
+
+        System.out.println("Enter the maximum price for the snack");
+        int snackMatchPrice = input.nextInt(); 
+
+        for (int i = 0; i < snackCounter; i ++) {
+            Snack currentSnack = snacks[i];
+            
+            if (currentSnack.getPrice() <= snackMatchPrice ){
+                currentSnack.printSnack();
+            }
+            snackMatch = true; 
+
+        }
 
 
 
-    } 
+        if (snackMatch == false) {
+            System.out.println("No match was found, please try again. ");
+        }
+
+
+
+
+    }
+ 
 }
