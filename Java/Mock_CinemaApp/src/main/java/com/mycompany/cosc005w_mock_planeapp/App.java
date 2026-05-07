@@ -1,6 +1,10 @@
 package com.mycompany.cosc005w_mock_planeapp;
 
 import java.util.Scanner;
+import java.io.FileWriter;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.PrintWriter;
 
 public class App {
     // --- GLOBAL VARIABLES ---
@@ -32,6 +36,7 @@ public class App {
             System.out.println("1) Book a movie seat");
             System.out.println("2) Show seating area");
             System.out.println("3) Search snacks");
+            System.out.println("4) Save end of day report");
             System.out.println("0) Quit");
             System.out.println("+-----------------+");
             System.out.print("Please select an option: ");
@@ -48,6 +53,8 @@ public class App {
                     buySnack();    
                 case 4: 
                     searchSnacks();
+                case 5:
+                    saveSnacksToFile();
                 case 0:
                     System.out.println("Enjoy the movie!");
                     break;
@@ -125,28 +132,44 @@ public class App {
         Scanner input = new Scanner (System.in);
         boolean snackMatch = false;
 
-        System.out.println("Enter the maximum price for the snack");
+        System.out.println("Enter the maximum price for the snack: ");
         int snackMatchPrice = input.nextInt(); 
+        System.out.println("Snack under £ " + snackMatchPrice);
+
 
         for (int i = 0; i < snackCounter; i ++) {
             Snack currentSnack = snacks[i];
             
             if (currentSnack.getPrice() <= snackMatchPrice ){
+                //This prints the snacks details
                 currentSnack.printSnack();
+                snackMatch = true;
             }
-            snackMatch = true; 
-
         }
-
-
 
         if (snackMatch == false) {
             System.out.println("No match was found, please try again. ");
         }
+    }
+
+    private static void saveSnacksToFile() {
+        try{ 
+            PrintWriter writer = new PrintWriter(new FileWriter("Snacks.txt"));
+
+            for (int i = 0; i < snackCounter; i++){
+                Snack currentSnack = snacks[i];
+                writer.println("Snack: " + currentSnack.getSnackName() + "Price: " +currentSnack.getPrice());
+            }
+
+            
+            writer.close();
+            System.out.println("File has been saved");
 
 
-
-
+            catch (IOException e) {
+                System.out.println("Error saving the file: " + e.getMessage());
+            }
+        }
     }
  
 }
