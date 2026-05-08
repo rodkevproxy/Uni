@@ -24,5 +24,5 @@ public class App {
     // private static void setupStore() { ... }
     // private static void buyGame() { ... }
     // private static void saveReceipts() { ... }
-
+    // Check notes
 }
