@@ -25,4 +25,5 @@ public class App {
     // private static void buyGame() { ... }
     // private static void saveReceipts() { ... }
     // Check notes
+    //Review the structures for methods and everything 
 }
