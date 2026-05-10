@@ -4,7 +4,7 @@ public class Game {
     String title; 
     String console; 
     double price; 
-    double inStock; 
+    boolean inStock; 
 
     //constructor 
     public Game(String title, String console, double price, double inStock){
@@ -29,7 +29,7 @@ public class Game {
         return this.price; 
     }
 
-    public double getInStock () { 
+    public boolean getInStock () { 
         return this.inStock; 
     }
 
@@ -47,7 +47,7 @@ public class Game {
         this.price = price; 
     }
 
-    public void setInStock (double inStock) { 
+    public void setInStock (boolean inStock) { 
         this.inStock = inStock;
     }
 
