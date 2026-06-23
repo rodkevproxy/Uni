@@ -198,19 +198,24 @@ import java.io.IOException;
     private static void saveToFile() {
         try{
             // open a new file called payments.txt 
-            PrintWriter writer = new PrintWriter(new FileWriter("Payment.txt"));
+            FileWriter writer = new FileWriter("Payment.txt");
+            PrintWriter printWriter = new PrintWriter(writer);
+            for(Payment payment : payments){
+                if (payment != null){
+                printWriter.println("Email: " + payment.getEmail() + " | Amount:  £ " + payment.getPaymentAmount());
+                printWriter.close();
+                System.out.println("Payment has been saved");
+                }
 
-            for(int i = 0; i < paymentCounter; i ++){
-                Payment currentPayment = payments[i];
-
-                writer.println("Email: " + currentPayment.getEmail() + " | Amount:  £ " + currentPayment.getPaymentAmount());
+                
             }
 
             // Close the file when it is done 
             writer.close(); 
             System.out.println("Payments successfully saved to file! ");
         }catch(IOException e){ 
-            System.out.println("Erros saving file: " + e.getMessage());
+            System.out.println("Erros saving file");
+            e.printStackTrace();
         }
     }
 
