@@ -79,6 +79,8 @@ import java.io.IOException;
             System.out.println("+---------------------------------------------+");
             System.out.println("|  1) Buy a plane ticket                      |");
             System.out.println("|  2) Show seating area and available seats   |");
+            System.out.println("|  3) Search for a payment                    |");
+            System.out.println("|  4) Save all payments                       |");
             System.out.println("|  0) Quit                                    |");
             System.out.println("+---------------------------------------------+");
             System.out.print("Please select an option: ");
