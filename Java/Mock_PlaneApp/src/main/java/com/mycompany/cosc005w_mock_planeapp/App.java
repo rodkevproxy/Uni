@@ -122,27 +122,24 @@ import java.io.IOException;
     private static void buyTicket() {
 
         Scanner input = new Scanner(System.in);
-        int rowNumber; // Variable to hold the raw input (1-4)
 
-        do {
         System.out.print("Enter row number: ");
-        rowNumber = input.nextInt();
+        int row = input.nextInt() - 1;
 
-        if (rowNumber < 1 || rowNumber > 4){
-            System.out.println("Invalid row! Please choose between 1 and 4.");
+        while (row < 0 || row > planeSeats.length ){
+
+            System.out.println("Row number should be from 1 to 4");
+            row = input.nextInt() - 1;
         }
-    } while (rowNumber < 1 || rowNumber > 4); 
 
-        // up to this point we are safe because we know that the row entered will be the correct one 
-        // we substract one so it matches the 0 count based java method 
-
-        int row = rowNumber - 1; 
-
-        // Now we need to get the seat and buy the ticket
-        System.out.println( "Enter the seat number: " );
+        System.out.println("Enter your seat number");
         int seat = input.nextInt() - 1;
-        
-        // Now we need to check if the seat is available or not 
+
+        while (seat < 0 || seat > planeSeats[row].length){
+            System.out.println("Row number should be between 1 and " + planeSeats[row].length);
+            row = input.nextInt() - 1;
+        }
+
 
         if (planeSeats[row][seat] == 0) {
             System.out.println("Seat Available! Please enter your email"); 
