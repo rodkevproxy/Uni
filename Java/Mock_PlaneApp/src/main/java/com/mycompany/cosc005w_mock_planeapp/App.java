@@ -142,16 +142,13 @@ import java.io.IOException;
 
         if (planeSeats[row][seat] == 0) {
             System.out.println("Seat Available! Please enter your email"); 
-            String userEmail = input.next(); 
+            String email = input.next(); 
+            double paymentAmount = pricePerRow[row];
 
-            int price = 0; 
-            if (row == 0) {price = 50; }
-            else if (row == 1) {price = 80; }
-            else if (row == 2) {price = 80; }
-            else if (row == 3) {price = 50; }
+        
 
-            Payment newPayment = new Payment(userEmail, price); 
-            payments[paymentCounter] = newPayment; 
+            Payment payment = new Payment(email, paymentAmount); 
+            payments[paymentCounter] = payment; 
             paymentCounter ++; 
 
             planeSeats[row][seat] = 1;

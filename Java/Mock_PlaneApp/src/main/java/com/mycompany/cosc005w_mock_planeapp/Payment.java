@@ -3,11 +3,11 @@ package com.mycompany.cosc005w_mock_planeapp;
 public class Payment {
 
     // the atributes
-    String email; 
-    int paymentAmount; 
+    public String email; 
+    public double paymentAmount; 
     
     // constructor 
-    public Payment ( String email, int paymentAmount ){ 
+    public Payment ( String email, double paymentAmount ){ 
         this.email = email; 
         this.paymentAmount = paymentAmount;
 
@@ -18,7 +18,7 @@ public class Payment {
         return this.email;
     }
 
-    public int getPaymentAmount () {
+    public double getPaymentAmount () {
         return this.paymentAmount;
     }
 
@@ -28,7 +28,7 @@ public class Payment {
         this.email = email; 
     }
 
-    public void setPaymentAmount (int paymentAmount){
+    public void setPaymentAmount (double paymentAmount){
         this.paymentAmount = paymentAmount;
 
     }
