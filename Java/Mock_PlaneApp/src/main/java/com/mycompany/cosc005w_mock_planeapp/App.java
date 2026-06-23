@@ -60,9 +60,7 @@ import java.io.IOException;
                 case 3: 
                     searchPayment(); // very important to add!          
                 case 4: 
-                    saveToFile();
-                case 10: 
-                System.out.println("Thank you for flying with us");                        
+                    saveToFile();                      
                 default:
                     System.out.println("Option not available. Please select a valid option: ");
             }
@@ -97,23 +95,22 @@ import java.io.IOException;
 
     private static void searchPayment() {
         Scanner input = new Scanner(System.in);
-        boolean foundMatch = false; //boolean flag to display when a payment is not found 
+        boolean found = false; //boolean flag to display when a payment is not found 
         
         System.out.println("Eneter a payment amout to search for: ");
-        int searchAmout = input.nextInt(); 
+        int amout = input.nextInt(); 
 
          for (int i  = 0; i < paymentCounter; i ++) { 
-            Payment currentPayment = payments[i]; 
             
-        if (currentPayment.getPaymentAmount() == searchAmout){
-            System.out.println("- " + currentPayment.getPaymentAmount());
+        if (payments[i].getPaymentAmount() == amout){
+            System.out.println("- " + payments[i].getEmail());
 
-            foundMatch = true; 
+            found = true; 
 
         }                 
     }
 
-    if (foundMatch == false ){ 
+    if (found == false ){ 
         System.out.println("No payments were found with that amount ");
     }
 
