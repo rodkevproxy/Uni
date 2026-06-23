@@ -14,7 +14,7 @@ import java.io.IOException;
  * SURNAME:
  * STUDENT ID: SESSION (Day + time):
  */
-public class App {
+    public class App {
 
     // Global variables
     private static int[][] planeSeats = null;
@@ -29,7 +29,7 @@ public class App {
     }
 
     public static void initialiseRows() {
-        planeSeats = new int[4][]; // total rows - multidimensional array
+        planeSeats = new int[4][];   // total rows - multidimensional array
         planeSeats[0] = new int[18]; // row 1 - initialised at 0 all available
         planeSeats[1] = new int[20]; // row 2 - initialised at 0 all available
         planeSeats[2] = new int[20]; // row 2 - initialised at 0 all available
