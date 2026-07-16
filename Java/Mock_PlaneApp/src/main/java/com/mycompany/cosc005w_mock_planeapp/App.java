@@ -3,16 +3,32 @@
  */
 package com.mycompany.cosc005w_mock_planeapp;
 
+
+
+//This was the only import used during the exam, and it came already with the 
+//File
+
+
 import java.util.Scanner;
+
+
+
+
+
+//This import were not used during the exam 
 import java.io.FileWriter;
 import java.io.PrintWriter;
 import java.io.IOException;
+//Only 
+
+
+
 
 /**
  * // Before you start, complete the following information: 
  * NAME: 
- * SURNAME:
- * STUDENT ID: SESSION (Day + time):
+ * SURNAME: 
+ * STUDENT ID: SESSION (Day + time): 
  */
     public class App {
 
@@ -141,7 +157,7 @@ import java.io.IOException;
 
 
         if (planeSeats[row][seat] == 0) {
-            System.out.println("Seat Available! Please enter your email"); 
+            System.out.println("Please enter your email"); 
             String email = input.next(); 
             double paymentAmount = pricePerRow[row];
 
