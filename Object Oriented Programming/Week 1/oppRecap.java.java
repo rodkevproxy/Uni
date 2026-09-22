@@ -1,2 +1,0 @@
-- Assesment is on week 9 
-- Only material to help us would be the lectures notes on blackboard 
