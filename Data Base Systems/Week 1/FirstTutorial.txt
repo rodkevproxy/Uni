@@ -5,6 +5,7 @@
 - Foreing key (Columns that links to the Primary key of another table)
 - Every column is called attribute  
 - Every row is called instance (Iphone(row) is an instance of Device)
+- Multiplicity (is the participation of cardinality from start to end)
 -
- 
+
 
