@@ -5,6 +5,10 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/Java/HotelApp/pom.xml" />
+        <option value="$PROJECT_DIR$/Java/Mock_PlaneApp/pom.xml" />
+        <option value="$PROJECT_DIR$/Java/Mock_CinemaApp/pom.xml" />
+        <option value="$PROJECT_DIR$/Java/Mock_HotelManager/pom.xml" />
+        <option value="$PROJECT_DIR$/Java/Mock_RetroGameStore/pom.xml" />
       </list>
     </option>
   </component>
