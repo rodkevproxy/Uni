@@ -1,0 +1,14 @@
+- Entitiy e.g Device 
+- * means many 
+- 0..* range (0 = participation) (Second one is called the cardinality)
+- Primary Key is somthing unique (Like my student ID) (Serial number on a device)
+- Foreing key (Columns that links to the Primary key of another table)
+- Every column is called attribute  
+- Every row is called instance (Iphone(row) is an instance of Device)
+- Multiplicity (is the participation of cardinality from start to end)
+- Download draw.io 
+
+
+TUTORIAL 1 
+
+
