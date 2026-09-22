@@ -1,4 +1,4 @@
 - Entitiy e.g module 
 - * means many 
-- 0..* range (0 = participation)
+- 0..* range (0 = participation) (Second one is called the cardinality)
 - Primary Key is somthing unique (Like my student ID)
