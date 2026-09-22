@@ -1,1 +1,3 @@
 - Entitiy e.g module 
+- * means many 
+- 0..* range (0 = participation)
