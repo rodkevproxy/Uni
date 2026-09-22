@@ -1,4 +1,4 @@
 - Entitiy e.g module 
 - * means many 
 - 0..* range (0 = participation)
-- 
+- Primary Key is somthing unique (Like my student ID)
