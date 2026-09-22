@@ -2,4 +2,5 @@
 - * means many 
 - 0..* range (0 = participation) (Second one is called the cardinality)
 - Primary Key is somthing unique (Like my student ID) (Serial number on a device)
-- 
+- Foreing key 
+
