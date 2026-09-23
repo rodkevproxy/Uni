@@ -1,4 +1,4 @@
 # Uni
-Uni courseworks and projects from first and second year
+Uni coursework and projects from first and second year
 
 
