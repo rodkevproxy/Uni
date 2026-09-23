@@ -1,3 +1,5 @@
+TUTORIAL
+
 - Entitiy e.g Device 
 - * means many 
 - 0..* range (0 = participation) (Second one is called the cardinality)
@@ -9,6 +11,5 @@
 - Download draw.io 
 
 
-TUTORIAL 1 
 
 
