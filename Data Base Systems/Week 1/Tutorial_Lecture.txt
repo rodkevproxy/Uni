@@ -17,6 +17,12 @@ LECTURE
 - Read the chapters, it is extremely usefull 
 - Exam might be multiple choice plus fill blanks, and on site 
 
+CONCEPTUAL DATA BASE DESIGN 
+- Relational model is are tables conected by FKs. 
+- 
+
+
+
 
 
 
