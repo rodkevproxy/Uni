@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="App" />
+        <module name="4COSC005W_Mock_PlaneApp (3)" />
         <module name="4COSC005W_Mock_PlaneApp" />
         <module name="demo" />
         <module name="4COSC005W_Mock_PlaneApp (1)" />
