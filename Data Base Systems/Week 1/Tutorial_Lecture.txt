@@ -19,7 +19,9 @@ LECTURE
 
 CONCEPTUAL DATA BASE DESIGN 
 - Relational model is are tables conected by FKs. 
-- 
+- Entity is always Singular and with a captital letter at the start  
+- Relationship with no physical existance
+- Think about a relation, (A student can take a module with no course)
 
 
 
