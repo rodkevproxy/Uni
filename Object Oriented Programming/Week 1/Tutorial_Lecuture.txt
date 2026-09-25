@@ -2,4 +2,5 @@ LECTURE 1
 
     -The signature of a method is the first line (definition)
     -Always write the main method PSV
-    -
+    -So just to add and double check
+        -The project Spring boot only works when is opened directly by the ide

@@ -12,7 +12,20 @@ TUTORIAL
 
 
 
-LECTURE 
+LECTURE
+- Lecture is quite chill plus we dont really have things set up
+- Read the chapters, it is extremely usefull 
+- Exam might be multiple choice plus fill blanks, and on site 
+
+CONCEPTUAL DATA BASE DESIGN 
+- Relational model is are tables conected by FKs. 
+- Entity is always Singular and with a captital letter at the start  
+- Relationship with no physical existance
+- Think about a relation, (A student can take a module with no course)
+
+
+
+
 
 
 
