@@ -24,7 +24,7 @@ TUTORIAL
 - Think about the boundaries of the system (Programming assistant, and math assistant)
     -(Regular user is a student, Instructors)
     DATA HANDLING AND FLOW
-    
+
         -(Return feedback, compare it to real case companies like FANG or Small 
         startups and practical interviews )
 
@@ -34,6 +34,10 @@ TUTORIAL
 
     REVERSE ENGINEERING INSIGHT  
         - Similar web applications would be neetcode, leetcode and hacker rank.
+        - 
+    
+
+
    
 
  
