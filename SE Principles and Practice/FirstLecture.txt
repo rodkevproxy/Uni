@@ -11,3 +11,7 @@
     -System requirements 
     -System itself
 
+
+-Build a use case diagram 
+- Waterfall diagram 
+- Software development porcess made by ibm 
