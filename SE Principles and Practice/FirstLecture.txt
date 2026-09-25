@@ -14,4 +14,13 @@
 
 -Build a use case diagram 
 - Waterfall diagram 
-- Software development porcess made by ibm 
+- Software development porcess made by ibm (clean Room)
+
+
+
+TUTORIAL
+
+- Choose a topic for the project 
+- Think about the boundaries of the system (Programming assistant, and math assistant)
+-
+- 
