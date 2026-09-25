@@ -2,4 +2,12 @@
 - Software desing (Target, No coding).
 - Often the dificult 
 - (own topic to design a software)
-- Language of the diagrams (formalize the diagram in terms of the modeling language )
+- Language of the diagrams (formalize the diagram in terms of the modeling language)
+
+
+(What are we gonna be covering)
+
+    -Logic
+    -System requirements 
+    -System itself
+
