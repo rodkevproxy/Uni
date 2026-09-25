@@ -22,5 +22,14 @@ TUTORIAL
 
 - Choose a topic for the project 
 - Think about the boundaries of the system (Programming assistant, and math assistant)
--
-- 
+    -(Regular user is a student, Instructors)
+    DATA HANDLING AND FLOW
+        -(Return feedback, compare it to real case companies like FANG or Small 
+        startups, )
+    SECURITY AND REGISTRATION REQUIREMENTS 
+        - Data protection and GDPR compiance. Need for password and encrypted data, 
+        secure session managment and allow the user to delete past code.
+    REVERSE ENGINEERING INSIGHT  
+        - Similar web applications would be neetcode, leetcode and hacker rank.
+        - 
+ 
