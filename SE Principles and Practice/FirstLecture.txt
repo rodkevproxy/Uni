@@ -34,7 +34,8 @@ TUTORIAL
 
     REVERSE ENGINEERING INSIGHT  
         - Similar web applications would be neetcode, leetcode and hacker rank.
-        - 
+        - Similar process but just comparing with no AI use, instead just pure codex syntax.
+        
     
 
 
