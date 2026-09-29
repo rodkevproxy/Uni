@@ -16,7 +16,7 @@ package uk.ac.westminster.products_api;
 public class Person {
 
     private String name;
-    private String Email;
+    private String email;
 
 
     public Person() {
@@ -30,7 +30,7 @@ public class Person {
         return name;
     }
     public String getEmail() {
-        return Email;
+        return email;
     }
 
     public void setName(String name) {
