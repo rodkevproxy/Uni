@@ -16,6 +16,8 @@ package uk.ac.westminster.products_api;
 public class Person {
 
     private String name;
+    private String Email;
+
 
     public Person() {
     }
@@ -26,6 +28,9 @@ public class Person {
 
     public String getName() {
         return name;
+    }
+    public String getEmail() {
+        return Email;
     }
 
     public void setName(String name) {
