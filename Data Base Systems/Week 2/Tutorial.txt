@@ -5,12 +5,22 @@ TUTORIAL
     Modules 
     TextBook 
     Staff 
-    
+
 -RelationShip 
     Student is Registered on a module 
     Student takes a module 
     Staff recommend a textbook to a student 
     Course contains modules 
 
--
+
+-STAFF is a general entity  
+    -Part/Ful Time  each one is a subclass or a specialized entity 
+    -(FTL)  stands for Full Time Lecturer 
+
+    
+
+
+    
+
+
 
