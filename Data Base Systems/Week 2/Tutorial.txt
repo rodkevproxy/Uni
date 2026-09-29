@@ -5,9 +5,12 @@ TUTORIAL
     Modules 
     TextBook 
     Staff 
+    
 -RelationShip 
     Student is Registered on a module 
     Student takes a module 
     Staff recommend a textbook to a student 
+    Course contains modules 
 
-    
+-
+
