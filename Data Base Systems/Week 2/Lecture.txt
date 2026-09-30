@@ -1,0 +1,5 @@
+SCOPE   
+    Private is for the same class only 
+    Default is for the same package 
+    Protected is for the same package and any subclass elsewhere 
+    Public is for every class, everywhere 
