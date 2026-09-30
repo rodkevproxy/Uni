@@ -1,1 +1,5 @@
 -Coursework gets released 
+
+- Recursive relation ships / generalisation and specialisation EERD 
+- 
+
