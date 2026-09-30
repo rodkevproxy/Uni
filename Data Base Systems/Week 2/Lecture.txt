@@ -1,5 +1,5 @@
 -Coursework gets released 
 
-- Recursive relation ships / generalisation and specialisation EERD 
+- Recursive relation ships / generalisation and specialisation (These two are very important for the CW) EERD 
 - 
 
