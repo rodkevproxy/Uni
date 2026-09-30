@@ -3,3 +3,10 @@ SCOPE
     Default is for the same package 
     Protected is for the same package and any subclass elsewhere 
     Public is for every class, everywhere 
+    - UML diagram 
+        + public 
+        - Private 
+        # Protected 
+        - Defalul/package
+    - Static means one shared copy per class, not one per object. (Not related to the instance) 
+    
