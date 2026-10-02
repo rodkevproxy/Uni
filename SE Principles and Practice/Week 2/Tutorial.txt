@@ -1,6 +1,27 @@
-- Clousure diagram 
-- Feaseible design 
-- Get the scope smaller 
-- Onion diagram 
+NeetCode for internal uni use 
 
+    - Build it with the university so they can trust me  
+    - The scope is reduced to students (From the Computer science and engineering team) that want to do an internship and a placement year 
+    - Could be also necessary for undergraduates, they will have to sit technicall interviews if they want to get a job on a relate field 
+    
+
+Task 1 Identify The Scope 
+    - Users 
+        - Students mainly
+    - Similar web products 
+        -LeetCode, HackerRank, Neetcode, Algomonster 
+    - Problmes 
+        - The coding challenge devided into different categories 
+    - Submissions 
+        - Editorial explanation and comunity driven solutions 
+    - Code Execution Engien 
+        - Needs to be executed against test cases 
+    - FrontEnd/BackEnd
+        - 
+    - Database 
+        - It is required for relational data for users 
+    
+
+I wanna implement a neetcode type of platform that prepare students for technicall interviews, (Mainly students from computer science, soft
+ware engineering and related fields of study) that are interested on taking an internship, placement year or that a fresh grads 
     
