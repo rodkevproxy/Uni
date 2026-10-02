@@ -37,7 +37,15 @@ INTERVIEW QUESTIONS (INCOMIG.)
 
 MAP THE USER REQUIREMENTS 
     - Different formats exists 
-    - Type of user, task, goal
+    - Type of user, task, goal.
+    -
+
+SYSYEM REQUIREMENTS 
+
+    - Natural language 
+    - Use case description template 
+    - Activity flow 
+    
 
 
 
