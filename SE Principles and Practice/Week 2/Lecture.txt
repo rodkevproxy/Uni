@@ -8,16 +8,16 @@
     define what my system should do and not how  
     -Whst informstion to gather 
     - From which source 
-    -My which techniques 
+    -By which techniques 
 
 
 PROGRESS FROM GENERAL TO SPECIFIC 
     -Aims and objectives 
     -Project scope and constrains 
 
-- Requirements are the end of the elicitation process 
-- Intermediate works need delivering 
-    -A description of the problem domain 
-    -Risks 
-    -A lsit of current issues 
+    - Requirements are the end of the elicitation process 
+    - Intermediate works need delivering 
+        -A description of the problem domain 
+        -Risks 
+        -A lsit of current issues 
 
