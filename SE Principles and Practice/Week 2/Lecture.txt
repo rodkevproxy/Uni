@@ -21,3 +21,16 @@ PROGRESS FROM GENERAL TO SPECIFIC
         -Risks 
         -A lsit of current issues 
 
+SOURCE OF INFORMATION 
+
+    - Stakeholders 
+    - Existing systems 
+    - Websites 
+    - Competitor's products 
+
+ONION DIAGRAM FOR STAKEHOLDERS 
+
+    -Inside is the main priority 
+    
+
+
