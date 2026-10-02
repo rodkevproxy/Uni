@@ -35,6 +35,11 @@ ONION DIAGRAM FOR STAKEHOLDERS
 INTERVIEW QUESTIONS (INCOMIG.)
 
 
+MAP THE USER REQUIREMENTS 
+    - Different formats exists 
+    - Type of user, task, goal
+
+
 
 
 
