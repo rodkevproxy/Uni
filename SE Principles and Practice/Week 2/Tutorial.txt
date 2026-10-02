@@ -1,0 +1,6 @@
+- Clousure diagram 
+- Feaseible design 
+- Get the scope smaller 
+- Onion diagram 
+
+    
