@@ -1,7 +1,9 @@
--Role of requirements  
+- Role of requirements  
 
 
 
 -Coursework 
-    -First step is to define the problem/issue 
-    -
+    - First step is to define the problem/issue 
+    - Chekc the requirements that my software is trying to solve, this will save time and will act as a good starting point 
+    define what my system should do and not how  
+    - 
