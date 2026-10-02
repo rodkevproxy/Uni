@@ -6,19 +6,7 @@
     - First step is to define the problem/issue 
     - Chekc the requirements that my software is trying to solve, this will save time and will act as a good starting point 
     define what my system should do and not how  
-    - 
-
-
-
-
-
-
-
-PROBLEM CASE 
-    -Issues 
-        -Urgency 
-        -Is it for you or your self 
-        -Age? 
-        -Date and timeslots 
-        -Keep in mind is a software 
-        -
+    -Whst informstion to gather 
+    - From which source 
+    -Ny which techniques 
+    
