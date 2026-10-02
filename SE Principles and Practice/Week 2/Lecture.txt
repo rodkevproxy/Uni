@@ -45,7 +45,17 @@ SYSYEM REQUIREMENTS
     - Natural language 
     - Use case description template 
     - Activity flow 
+
+NON FUNCTIONAL REQUIREMENTS 
+
+    -How the system should behave 
+    -How well it should perform 
+    -Performance 
+    -Capacity 
+    -Reliability 
+    -Usability 
     
+
 
 
 
