@@ -1,0 +1,65 @@
+- Role of requirements  
+
+
+
+-Coursework 
+    - First step is to define the problem/issue 
+    - Chekc the requirements that my software is trying to solve, this will save time and will act as a good starting point 
+    define what my system should do and not how  
+    -Whst informstion to gather 
+    - From which source 
+    -By which techniques 
+
+
+PROGRESS FROM GENERAL TO SPECIFIC 
+    -Aims and objectives 
+    -Project scope and constrains 
+
+    - Requirements are the end of the elicitation process 
+    - Intermediate works need delivering 
+        -A description of the problem domain 
+        -Risks 
+        -A lsit of current issues 
+
+SOURCE OF INFORMATION 
+
+    - Stakeholders 
+    - Existing systems 
+    - Websites 
+    - Competitor's products 
+
+ONION DIAGRAM FOR STAKEHOLDERS 
+
+    -Inside is the main priority 
+
+INTERVIEW QUESTIONS (INCOMIG.)
+
+
+MAP THE USER REQUIREMENTS 
+    - Different formats exists 
+    - Type of user, task, goal.
+    -
+
+SYSYEM REQUIREMENTS 
+
+    - Natural language 
+    - Use case description template 
+    - Activity flow 
+
+NON FUNCTIONAL REQUIREMENTS 
+
+    -How the system should behave 
+    -How well it should perform 
+    -Performance 
+    -Capacity 
+    -Reliability 
+    -Usability 
+
+
+
+
+
+
+
+
+
