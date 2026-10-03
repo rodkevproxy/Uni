@@ -1,0 +1,17 @@
+Core Entities 
+    - BUildings
+    -Name, name, address, apartments (Size, monthly rent)
+    - Record their salary and check their credit scroes, sign rental agreement, 
+
+Tenants Rent
+    -They can sign together (Lead tenant)
+    - Start end dates, deposit paid and total cost of tenancy 
+    - 
+
+RELEVANT SUPLIERS (Rental agreement)   
+    - Electricity, gas and water #
+    - Record the star/end dates of each contract, and its estimated cost 
+
+Residents who BUY 
+    - 
+
