@@ -23,5 +23,6 @@ Task 1 Identify The Scope
     
 
 I wanna implement a neetcode type of platform that prepare students for technicall interviews, (Mainly students from computer science, soft
-ware engineering and related fields of study) that are interested on taking an internship, placement year or that a fresh grads 
+ware engineering and related fields of study) that are interested on taking an internship, placement year or that a fresh grads. 
+
     
