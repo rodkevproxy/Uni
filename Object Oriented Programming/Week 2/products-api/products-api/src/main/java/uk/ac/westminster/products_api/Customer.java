@@ -19,5 +19,6 @@ public class Customer {
     public String GetName() {return name;}
     public String GetEmail() {return email;}
     public Address getAddress() {return address;}
+    //Passed tests
 }
 
