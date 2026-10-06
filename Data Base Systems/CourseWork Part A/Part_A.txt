@@ -20,7 +20,7 @@ w2151939_Lead_Tenant
 w2151939_How_To_Be_Contacted 
 w2151939_Utilities_Contract (Electricity, Gas and Water)
 w2151939_Past_Agreements 
-w2151939_Relevant_Supliers
+w2151939_Relevant_Supliers (Start Date, End Date, Total Cost)
 w2151939_
 
 
