@@ -14,13 +14,14 @@ w2151939_Contact_Details
 w2151939_Tenants 
 w2151939_Monthly_Salary 
 w2151939_Credit_Score 
-w2151939_Rental_Agreement (Start Date, End Date and deposit paid)
+w2151939_Rental_Agreement (Start Date, End Date, Deposit Paid and Total Cost Of Tenancy)
 w2151939_(One or several tenants can sign together)
 w2151939_Lead_Tenant 
 w2151939_How_To_Be_Contacted 
-w2151939_Utilities_Contract 
+w2151939_Utilities_Contract (Electricity, Gas and Water)
+w2151939_Past_Agreements 
+w2151939_Relevant_Supliers
 w2151939_
-
 
 
 
