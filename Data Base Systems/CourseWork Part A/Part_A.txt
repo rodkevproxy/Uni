@@ -4,7 +4,7 @@ w2151939_Name
 w2151939_Address 
 w2151939_Facility 
 w2151939_Parking_lot 
-w2151939_Parking_space 
+w2151939_Parking_space (Charging Point, Type And Speed Of The Charger, Reserved For Electric Vehicles) 
 (w2151939_Register_with_us)
 w2151939_Residents 
 w2151939_Rent 
@@ -21,7 +21,13 @@ w2151939_How_To_Be_Contacted
 w2151939_Utilities_Contract (Electricity, Gas and Water)
 w2151939_Past_Agreements 
 w2151939_Relevant_Supliers (Start Date, End Date, Total Cost)
-w2151939_
+w2151939_Owners (Date Of Purchase, No Rental Agreemet, Arrange Their Own Utilities)
+w2151939_Visitors (Name, Capacity)(Star Date, End Date, Contact Details)
+w2151939_Vehicles (Type)
+
+
+
+
 
 
 
