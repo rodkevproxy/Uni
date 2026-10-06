@@ -22,8 +22,10 @@ w2151939_Utilities_Contract (Electricity, Gas and Water)
 w2151939_Past_Agreements 
 w2151939_Relevant_Supliers (Start Date, End Date, Total Cost)
 w2151939_Owners (Date Of Purchase, No Rental Agreemet, Arrange Their Own Utilities)
-w2151939_Visitors (Name, Capacity)(Star Date, End Date, Contact Details)
+w2151939_Visitors (Name, Capacity)(Star Date, End Date, Contact Details)(Often come back for a diferent resident)(Register for one of the visitor spaces)(Record use of visitor space, 
+with the date and time the vehicle arrived and left)
 w2151939_Vehicles (Type)
+w2151939_
 
 
 
