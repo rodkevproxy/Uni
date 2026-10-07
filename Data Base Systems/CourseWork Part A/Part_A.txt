@@ -26,7 +26,7 @@ w2151939_Visitors (Name, Capacity)(Star Date, End Date, Contact Details)(Often c
 with the date and time the vehicle arrived and left)
 w2151939_Vehicles (Type)
 
-
+SORTED DATA
 
 ENTITIES 
 w2151939_Building
