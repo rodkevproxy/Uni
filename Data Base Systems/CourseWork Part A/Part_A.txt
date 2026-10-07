@@ -1,34 +1,7 @@
-w2151939_Building  
-w2151939_Apartnent 
-w2151939_Name 
-w2151939_Address 
-w2151939_Facility 
-w2151939_Parking_lot 
-w2151939_Parking_space (Charging Point, Type And Speed Of The Charger, Reserved For Electric Vehicles) 
-(w2151939_Register_with_us)
-w2151939_Residents 
-w2151939_Rent 
-w2151939_Buy
-w2151939_Personal_Id 
-w2151939_Contact_Details 
-w2151939_Tenants 
-w2151939_Monthly_Salary 
-w2151939_Credit_Score 
-w2151939_Rental_Agreement (Start Date, End Date, Deposit Paid and Total Cost Of Tenancy)
-w2151939_(One or several tenants can sign together)
-w2151939_Lead_Tenant 
-w2151939_How_To_Be_Contacted 
-w2151939_Utilities_Contract (Electricity, Gas and Water)
-w2151939_Past_Agreements 
-w2151939_Relevant_Supliers (Start Date, End Date, Total Cost)
-w2151939_Owners (Date Of Purchase, No Rental Agreemet, Arrange Their Own Utilities)
-w2151939_Visitors (Name, Capacity)(Star Date, End Date, Contact Details)(Often come back for a diferent resident)(Register for one of the visitor spaces)(Record use of visitor space, 
-with the date and time the vehicle arrived and left)
-w2151939_Vehicles (Type)
 
 SORTED DATA
-
-ENTITIES 
+ENTITIES
+ 
 w2151939_Building
 
 w2151939_Apartment
