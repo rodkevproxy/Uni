@@ -1,0 +1,4 @@
+Mapping conceptual to logical 
+-Resolving relationshps, Foreign keys 
+
+
