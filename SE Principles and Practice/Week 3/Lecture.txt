@@ -1,2 +1,6 @@
 Levels of requirements 
-Prioritising Requirements 
+Prioritising Requirements
+
+Inmediate users of the system (Actors)
+An actor can be more generalised than another one 
+
