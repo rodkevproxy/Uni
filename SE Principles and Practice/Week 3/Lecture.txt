@@ -4,3 +4,7 @@ Prioritising Requirements
 Inmediate users of the system (Actors)
 An actor can be more generalised than another one 
 
+Use case diagram does not give a flow, no sequence (Flow is done in the activiity diagram)
+
+Every user is connected to an actor (Check) 
+Every use case is also connected (Check)
