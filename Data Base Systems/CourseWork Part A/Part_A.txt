@@ -1,31 +1,9 @@
 
 SORTED DATA
 ENTITIES
- 
-w2151939_Building
 
-w2151939_Apartment
-
-w2151939_Facility
-
-w2151939_ParkingLot
-
-w2151939_ParkingSpace
-
-w2151939_Resident
-
-w2151939_Tenant
-
-w2151939_Owner
-
-w2151939_RentalAgreement
-
-w2151939_UtilitiesContract
-
-w2151939_Visitor
-
-w2151939_Vehicle
-
+    EERD draft is done, need a lot of double checks. 
+    
 
 
 
