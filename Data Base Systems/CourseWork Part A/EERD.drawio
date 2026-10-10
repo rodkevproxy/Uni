@@ -1,6 +1,6 @@
 <mxfile host="Electron">
   <diagram name="Page-1" id="ridbnFS7LE4PtJc0cOdH">
-    <mxGraphModel dx="2478" dy="528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3007" dy="589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -22,7 +22,7 @@
         <mxCell id="e8ZW6viHYOccBokBwK0Y-3" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="w2151939_Aparment" vertex="1">
           <mxGeometry height="135" width="190" x="150" y="785" as="geometry" />
         </mxCell>
-        <mxCell id="e8ZW6viHYOccBokBwK0Y-4" parent="e8ZW6viHYOccBokBwK0Y-3" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="w2151939_aparment_id {PK}&lt;br&gt;w2151939_size&lt;br&gt;w2151939_numOfBedrooms&lt;div&gt;w2151939_monthlyRent&amp;nbsp;&lt;/div&gt;" vertex="1">
+        <mxCell id="e8ZW6viHYOccBokBwK0Y-4" parent="e8ZW6viHYOccBokBwK0Y-3" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="w2151939_aparmentId {PK}&lt;br&gt;w2151939_size&lt;br&gt;w2151939_numOfBedrooms&lt;div&gt;w2151939_monthlyRent&amp;nbsp;&lt;/div&gt;" vertex="1">
           <mxGeometry height="85" width="190" y="50" as="geometry" />
         </mxCell>
         <mxCell id="e8ZW6viHYOccBokBwK0Y-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="contains" vertex="1">
@@ -113,7 +113,7 @@
         <mxCell id="ubmKBbQCHDIP0yxzYz9Z-1" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="w2151939_Resident" vertex="1">
           <mxGeometry height="160" width="210" x="530" y="890" as="geometry" />
         </mxCell>
-        <mxCell id="ubmKBbQCHDIP0yxzYz9Z-2" parent="ubmKBbQCHDIP0yxzYz9Z-1" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="resident_id {pk}&lt;br&gt;name&lt;br&gt;personalDetails&lt;br&gt;&lt;div&gt;registrationType(Rent/Buy)&lt;/div&gt;" vertex="1">
+        <mxCell id="ubmKBbQCHDIP0yxzYz9Z-2" parent="ubmKBbQCHDIP0yxzYz9Z-1" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="w2151939_residentId {pk}&lt;br&gt;w2151939_name&lt;br&gt;w2151939_personalDetails&lt;br&gt;&lt;div&gt;w2151939_registrationType(Rent/Buy)&lt;/div&gt;" vertex="1">
           <mxGeometry height="110" width="210" y="50" as="geometry" />
         </mxCell>
         <mxCell id="ubmKBbQCHDIP0yxzYz9Z-3" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="w2151939_Visit" vertex="1">
