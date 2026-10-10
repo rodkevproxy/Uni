@@ -3,6 +3,8 @@ SORTED DATA
 ENTITIES
 
     EERD draft is done, need a lot of double checks. 
+    EERD has been put aside at the moment, need to move into the tables 
+    
     
 
 
