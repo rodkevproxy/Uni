@@ -18,7 +18,7 @@ public class Product {
     public double getPrice() {return price;}
 
     //Activity 1 Week 4
-    public void setID(Long id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
