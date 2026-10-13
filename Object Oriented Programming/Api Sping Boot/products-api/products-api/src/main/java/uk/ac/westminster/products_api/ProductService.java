@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Service
-public class ProductServive {
+public class ProductService {
     private List<Product> products = new  ArrayList<>();
     private Long nextId = 1l; //This remembers which id to hand out next
 
@@ -14,7 +14,7 @@ public class ProductServive {
     }
 
     public Product addProduct (Product product) {
-        prodcut.setId(nextId++);
+        product.setId(nextId++);
         products.add(product);
         return product;
     }
