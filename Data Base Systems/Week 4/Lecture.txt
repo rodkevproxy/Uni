@@ -1,1 +1,7 @@
-Worked on relationships and diagrams similar to the ones presented on the coursework
+CourseWork 
+    Verbs for many to many 
+        - Takes part in  
+        - Is advertised at 
+        - Covers 
+        - attends 
+        
