@@ -1,0 +1,7 @@
+User Requirements 
+    - User must log into the ATM system using a bank card and a pin 
+    - The user must be able to withdraw money 
+    - The user must be able to see their balance 
+    - The user must have the option to print a receipt 
+
+
