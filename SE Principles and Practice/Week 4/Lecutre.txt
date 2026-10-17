@@ -1,1 +1,32 @@
 Coursework 1 released, dead line 11th of nov
+    Check for the diagrams 
+
+
+Modularity  
+    Complex system (S)
+    Modules (M)
+    A systme composed of modules is called "Modular"
+    Support separation of concerns 
+    Efficient integration 
+    Avoid coupling of the modules 
+    One of the fundamental issues, cornerstone principle supporting software dessing 
+    API's, Data Storage 
+
+LINKING TOGETHER 
+    Increments 
+        Development and testing 
+    
+INCREMENTAL DEVELOPMENT 
+    The development and delivery is broken down into increments 
+    User requirements are prioratised 
+    Once the decelopment of an increment is started, the requirements are frozen 
+    
+
+Software Cycle 
+    Time 
+        Life cycle modes 
+
+
+
+
+
