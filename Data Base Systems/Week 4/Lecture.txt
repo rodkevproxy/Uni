@@ -1,7 +1,5 @@
-CourseWork 
-    Verbs for many to many 
-        - Takes part in  
-        - Is advertised at 
-        - Covers 
-        - attends 
+Left To Do: 
+    Complete the EERD and the resize 
+    Complete both tables and dictionaries 
+    
         
