@@ -1,10 +1,14 @@
 package uk.ac.westminster.products_api;
 
+import java.io.Serializable;
+
 // A PhysicalProduct IS-A Product: it is a product that has
 // to be picked, packed and shipped.
-public class PhysicalProduct extends Product {
+public class PhysicalProduct extends Product implements Discountable{
     private double weightKg;
     private String dimensions;
+    private double discountedPrice;
+
     public PhysicalProduct() {
     }
     public PhysicalProduct(Long id, String name, double price,
@@ -20,5 +24,21 @@ public class PhysicalProduct extends Product {
     }
     public void setDimensions(String dimensions) {
         this.dimensions = dimensions;
+    }
+
+    @Override
+    public String getSummary() {
+        return getName() + "Weight: " + getWeightKg() + "Kg";
+    }
+
+    @Override
+    public void applyDiscount(double rate) {
+        double capped = Math.min(rate, 0.20);
+        this.discountedPrice = getPrice() * (1 - capped);
+    }
+
+    @Override
+    public double getDiscountedPrice() {
+        return this.discountedPrice;
     }
 }

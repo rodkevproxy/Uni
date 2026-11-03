@@ -1,10 +1,9 @@
 package uk.ac.westminster.products_api;
 
-public class Product {
-    public Long id;
-    public String name;
-    public double price;
-
+public abstract class Product {
+    private Long id;
+    private String name;
+    private double price;
     public Product() {
     }
     public Product(Long id, String name, double price) {
@@ -12,21 +11,15 @@ public class Product {
         this.name = name;
         this.price = price;
     }
+    // No body. Product cannot answer this question,
+    // so every concrete subclass MUST answer it.
+    public abstract String getSummary();
 
-    public Long getId() {return id;}
-    public String getName() {return name;}
-    public double getPrice() {return price;}
+    public Long getId() { return id; }
+    public String getName() { return name; }
+    public double getPrice() { return price; }
 
-    //Activity 1 Week 4
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setPrice (double price) {
-        this.price = price;
-    }
+    public void setId(Long id) { this.id = id; }
+    public void setName(String name) { this.name = name; }
+    public void setPrice(double price) { this.price = price; }
 }
