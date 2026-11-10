@@ -2,10 +2,9 @@
  
 -- Write a query that displays a list of department names alongside the cities and countries where these departments 
 -- are located, for all departments in Cambridge. 
- SELECT l.city, l.country, d.department_name 
-FROM locations l
-JOIN locations.l ON d.location_id = l.location_id
-WHERE l.city = 'Cambridge';
+SELECT l.city, l.country, d.department_name 
+FROM locations l JOIN departments d ON l.location_id 
+AND l.city = 'Cambridge';
 
 -- Tutorial 06 Question 02 
  
@@ -13,6 +12,15 @@ WHERE l.city = 'Cambridge';
 -- work in those departments, but only for the employees who earn more than 45K and for the departments whose name 
 -- start with the letter M. To avoid the issue of the capitalisation of the letter M, use UPPER to convert from lower-case 
 -- to upper-case. 
+
+SELECT d.department_name, CONCAT(e.first_name, ' ', e.last_name) AS full_name, e.salary
+FROM departments d
+JOIN employees e ON d.department_id = e.department_id
+WHERE e.salary > 45000 
+AND UPPER(d.department_name) LIKE 'M%';
+
+
+
  
 -- Tutorial 06 Question 03  
 -- Display a list of countries, cities, department names alongside the full names and salaries of the members of staff who 
