@@ -49,5 +49,7 @@ SELECT last_name, hire_date FROM employees WHERE YEAR(hire_date) = 2014;
 SELECT last_name, job_id, salary FROM employees WHERE (job_id = 902 OR job_id = 903) AND salary NOT IN (35000, 41000, 51000);
 
 -- 5.2 Create a query to display the last name, job id, salary, hire date for all employees for which, either their job id is 909 or 911 and their salary is less than 45000, or they were hired before 3rd March 2017 and their last names contains the letter ‘o’ as the one letter before last.
+SELECT last_name, job_id, salary, hire_date FROM employees WHERE (job_id IN (909, 911) AND salary < 45000) OR (hire_date < '2017-03-03' AND last_name LIKE '%o_');
+
 
 
