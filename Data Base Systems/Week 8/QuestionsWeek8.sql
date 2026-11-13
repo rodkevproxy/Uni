@@ -19,13 +19,13 @@ JOIN employees e ON d.department_id = e.department_id
 WHERE e.salary > 45000 
 AND UPPER(d.department_name) LIKE 'M%';
 
-
-
  
 -- Tutorial 06 Question 03  
 -- Display a list of countries, cities, department names alongside the full names and salaries of the members of staff who 
 -- work in those departments and cities. Do this for staff that were either hired after 2 March 2015 or who earn less than 
 -- £46000. Order your output by country, city, and department name. 
+
+SELECT l.country, l.city, d.department_name, CONCAT(e.first_name)
  
 -- Tutorial 06 Question 04 
  
