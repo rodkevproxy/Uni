@@ -1,0 +1,21 @@
+    -Sequence diagram 
+    -Could this be a final project? 
+
+Class Diagrams 
+Diagrams use a different notation from the dbs diagrams 
+Aggregation 
+Composition 
+Dependency 
+
+    Nouns are classes 
+    Verbs are methods 
+    Adjectives are attributes 
+
+
+Pong game:
+    Diafram used for the pong game to represent software 
+    
+
+
+
+
